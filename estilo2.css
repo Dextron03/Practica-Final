@@ -1,0 +1,76 @@
+header {
+  max-width: 1265px;
+  min-height: 130px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,cecece+13,ededed+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#logo {
+  width: 320px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: 1s logo 1;
+}
+
+/*CONTENIDO*/
+.contenido {
+  width: 100%;
+  height: 300px;
+  background: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.caja-1 {
+  margin: 10px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.caja-1 h4 {
+  position: absolute;
+  bottom: 0;
+  background-color: #222;
+  padding: 5px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+/*PIE DE PAGINA*/
+footer {
+  max-width: 1265px;
+  background: #000;
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "open sans";
+  font-size: 18px;
+}
+/*PIE DE PAGINA*/

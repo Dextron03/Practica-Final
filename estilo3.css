@@ -1,0 +1,101 @@
+/*CABECERA*/
+header {
+  max-width: 1256px;
+  min-height: 130px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,cecece+13,ededed+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #cecece 13%,
+    #ededed 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#logo {
+  width: 320px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: 1s logo 1;
+}
+/*CABECERA*/
+
+/*CONTENIDO*/
+#contenido {
+  width: 1256px;
+  min-height: 700px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ededed+46 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #ededed 46%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #ededed 46%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ededed 46%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contenido h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: blippo, fantasy;
+}
+
+.img-izq {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#contenido p {
+  margin-bottom: 20px;
+  font-family: Lucida, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+/*CONTENIDO*/
+
+/*PIE DE PAGINA*/
+footer {
+  max-width: 1265px;
+  background: #000;
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "open sans";
+  font-size: 18px;
+}
+/*PIE DE PAGINA*/
